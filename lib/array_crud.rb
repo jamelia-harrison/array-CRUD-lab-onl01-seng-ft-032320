@@ -1,24 +1,24 @@
-def create_an_empty_array
+def create_an_empty_array [ ]
   
 end
 
-def create_an_array
+def create_an_array %w[Christopher Judith Jamelia Bradley] 
   
 end
 
 def add_element_to_end_of_array(array, element)
+  array <<
+end
+
+def add_element_to_start_of_array(array, element).unshift
   
 end
 
-def add_element_to_start_of_array(array, element)
+def remove_element_from_end_of_array(array).pop
   
 end
 
-def remove_element_from_end_of_array(array)
-  
-end
-
-def remove_element_from_start_of_array(array)
+def remove_element_from_start_of_array(array).shift
   
 end
 
