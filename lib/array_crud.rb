@@ -7,23 +7,23 @@ def create_an_array %w[Christopher Judith Jamelia Bradley]
 end
 
 def add_element_to_end_of_array(array, element)
-  array <<
+  array << push
 end
 
-def add_element_to_start_of_array(array, element).unshift
-  
+def add_element_to_start_of_array(array, element)
+  array << unshift
 end
 
-def remove_element_from_end_of_array(array).pop
-  
+def remove_element_from_end_of_array(array)
+    array << pop
 end
 
-def remove_element_from_start_of_array(array).shift
-  
+def remove_element_from_start_of_array(array)
+  array << shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+ return  
 end
 
 def retrieve_first_element_from_array(array)
