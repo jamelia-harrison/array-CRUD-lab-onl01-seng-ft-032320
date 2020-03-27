@@ -2,7 +2,7 @@ def create_an_empty_array
   []
 end
 
-def create_an_array %w[Christopher Judith Jamelia Bradley] 
+def create_an_array %w(Christopher Judith Jamelia Bradley) 
   
 end
 
