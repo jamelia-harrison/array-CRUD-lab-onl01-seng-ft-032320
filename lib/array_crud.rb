@@ -2,8 +2,8 @@ def create_an_empty_array
   []
 end
 
-def create_an_array [Christopher, Judith, Jamelia, Bradley] 
-  
+def create_an_array 
+  [Christopher, Judith, Jamelia, Bradley] 
 end
 
 def add_element_to_end_of_array(array, element)
